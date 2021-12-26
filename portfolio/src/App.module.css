@@ -1,0 +1,13 @@
+.app{
+  /* background-color: #5e5a5a; */
+  background: #5E5A5A;
+  background: -webkit-linear-gradient(top left, #5E5A5A, #371757);
+  background: -moz-linear-gradient(top left, #5E5A5A, #371757);
+  background: linear-gradient(to bottom right, #5E5A5A, #371757);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content:center;
+  padding: 50px 0 50px;
+}
+

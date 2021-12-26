@@ -1,0 +1,19 @@
+.about{
+    width: 950px;
+    height: 650px;
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: inset 1px 1px 20px 3px rgb(0 0 0 / 50%);
+    transition: all 0.9s ease-out;
+    transform: translateX(0px);
+}
+
+.aboutTransform{
+    width: 950px;
+    height: 650px;
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: inset 1px 1px 20px 3px rgb(0 0 0 / 50%);
+    transition: all 0.9s ease-out;
+    transform: translateX(-170px);
+}
