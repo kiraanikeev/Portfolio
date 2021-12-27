@@ -75,3 +75,74 @@
   .slider.round:before {
     border-radius: 50%;
   }
+  .setting{
+    width: 24px;
+    margin-right: 5px;
+    position: relative;
+    top: 3px;
+    cursor: pointer;
+  }
+  .settingDiv{
+    background-color: rgba(231, 228, 228, 0.986);
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    width: 90px;
+    border-radius: 10px;
+    position: absolute;
+    right: 0px;
+    top: 15px;
+    align-items: center;
+    justify-content:space-evenly;
+    border: 2px black solid;
+    transition: all 0.5s ease-out;
+    transform: translateX(-50px);
+    opacity: 0;
+  }
+  .settingDivActive{
+    background-color: rgba(231, 228, 228, 0.986);
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    width: 90px;
+    border-radius: 10px;
+    position: absolute;
+    right: 70px;
+    top: 15px;
+    align-items: center;
+    justify-content:space-evenly;
+    border: 2px black solid;
+    transition: all 0.5s ease-out;
+    transform: translateX(0px);
+    opacity: 1;
+  }
+
+  .settings{
+    width: 25px;
+    cursor: pointer;
+  }
+
+  .settingButtonOne{
+border: none;
+height: 40px;
+width: 55px;
+border-top-left-radius:7px;
+border-bottom-left-radius:7px;
+  }
+  .settingButtonTwo{
+    border: none;
+    height: 40px;
+    width: 55px;
+    border-top-right-radius:7px;
+    border-bottom-right-radius:7px;
+      }
+  .settingButtonOne:hover{
+    border-right: 1px black solid;
+    background-color: rgb(235, 199, 0);
+    
+  }
+  .settingButtonTwo:hover{
+    border-left: 1px black solid;
+    background-color: rgb(235, 199, 0);
+    
+  }

@@ -1,3 +1,5 @@
+
+
 const dataSlider = [
     {
       id: 1,
@@ -50,7 +52,11 @@ const dataSlider = [
     },
     // {
     //   id: 7,
-    //   title: "mesto-with-authorization ",
+    //   title: "mesto-with-authorization",
+    //   link: "https://kiraanikeev.github.io/mesto-with-authorization/",
+    //   kod:"https://github.com/kiraanikeev/mesto-with-authorization",
+    //   technologyStack:"React(useState, useEffect, useContext, useHistory, HOC, router), Ajax(fetch(GET,PUT,POST,DELETE)), CSS(FLEX, GRID, Responsive design)",
+    //   description: "MESTO application with a modified opportunity to sign up and log in users.",
     // },
   ];
   

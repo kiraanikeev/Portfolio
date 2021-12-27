@@ -2,11 +2,16 @@ import React, { useEffect, useState } from "react";
 import dataSlider from "./DataSlider";
 import BtnSlider from "./BtnSlider";
 import styles from "./Projects.module.css"
+import stylesDark from "./ProjectsDark.module.css"
 import Navbar from '../Navbar/Navbar'
+import { useTranslation } from 'react-i18next';
+
+
 function Projects(props) {
 
     const [slideIndex, setSlideIndex] = useState(1);
-
+    const { t } = useTranslation();
+    const dataSliderObj = t("dataSliderTrans",{returnObjects: true})
     useEffect(() => {
         const play = setInterval(() => {
           if (slideIndex !== dataSlider.length) {
@@ -39,11 +44,17 @@ function Projects(props) {
     }
 
     return (
-  <div className={!props.contactsVisible ? styles.projects : styles.projectsTransform}>
-         <Navbar setContactsVisible={props.setContactsVisible} contactsVisible={props.contactsVisible} />
+  <div className={props.contactsVisible ? 
+  ( !props.darkVisible ? styles.projects : stylesDark.projects) 
+  : (!props.darkVisible ? styles.projectsTransform : stylesDark.projectsTransform)}>
+   
+         <Navbar setContactsVisible={props.setContactsVisible} contactsVisible={props.contactsVisible}
+         setSettingVisible={props.setSettingVisible} settingVisible={props.settingVisible} 
+         darkVisible={props.darkVisible} setDarkVisible={props.setDarkVisible}
+         handleClick={props.handleClick}/>
          <div
-      className={styles.containerSlider}>
-         {dataSlider.map((obj, index) => {
+      className={!props.darkVisible ? styles.containerSlider : stylesDark.containerSlider}>
+         {dataSliderObj.map((obj, index) => {
         return (
           <div
             key={obj.id}
@@ -55,17 +66,13 @@ function Projects(props) {
             <h3 className={styles.title}>{obj.title}</h3>
            <div className={styles.container}>
             <div className={styles.headingContainer}>
-           <h4 className={styles.headline}>link:</h4> 
-           <h4 className={styles.headline}>kod:</h4>
-           <h4 className={styles.headline}>technology stack:</h4>
-           <h4 className={styles.headline}>description:</h4>
+            <span className={styles.span}><h4 className={styles.headline}>{t('Headline.link')}</h4><a href={obj.link} className={styles.link}>{obj.link}</a></span>
+            <span className={styles.span}><h4 className={styles.headline}>{t('Headline.kod')}</h4><a href={obj.kod} className={styles.link}>{obj.kod}</a></span>
+            <span className={styles.span}><h4 className={styles.headline}>{t('Headline.description')}</h4><p className={styles.textP}>{obj.description}</p></span> 
+            <span className={styles.span}><h4 className={styles.headline}>{t('Headline.technology')}</h4><p className={styles.textP}>{obj.technologyStack}</p></span> 
             </div>
-            <div className={styles.descriptionContainer}> 
-            <span className={styles.span}><p>{obj.link}</p></span>
-            <span className={styles.span}><p>{obj.kod}</p></span> 
-            <span className={styles.span}><p>{obj.technologyStack}</p></span> 
-            <span className={styles.span}><p>{obj.description}</p></span> 
-            </div>   </div>
+      
+              </div>
           </div>
         );
       })}
@@ -80,9 +87,9 @@ function Projects(props) {
                     ></div>
                 ))}
             </div>
-
+            </div>
         </div>
-        </div>
+ 
     )
 }
 

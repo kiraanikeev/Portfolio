@@ -6,8 +6,9 @@
     box-shadow: inset 1px 1px 20px 3px rgb(0 0 0 / 50%);
     transition: all 0.9s ease-out;
     transform: translateX(0px);
-
+    /* background-color: rgb(7, 6, 6); */
 }
+
 .projectsTransform{
     transition: all 0.9s ease-out;
     transform: translateX(-170px);
@@ -16,6 +17,7 @@
     background-color: white;
     border-radius: 30px;
     box-shadow: inset 1px 1px 20px 3px rgb(0 0 0 / 50%);
+    /* background-color: rgb(7, 6, 6); */
 }
 
 .containerSlider {
@@ -29,7 +31,8 @@
     transition: 0.8s;
     display: flex;
     justify-content: center;
-    
+    /* border: 2px black solid; */
+    background-color: rgb(255, 255, 255);
   }
   .img{
     max-width: 650px;
@@ -82,6 +85,7 @@
     transition: opacity ease-in-out 0.4s;
   }
 
+
   .btnSlidePrev:hover {
     opacity: 0.8;
   }
@@ -99,19 +103,10 @@
       width: 110px;
     margin: 16px 10px;
   }
-  .link{
-    margin-top: 15px;
-    text-decoration: none;
-    color: #000;
-    position: relative;
-width: 730px;
-font-weight: 500;
-  }
   .textP{
 position: relative;
 width: 730px;
 font-weight: 500;
-
   }
   .container{
       display: flex;

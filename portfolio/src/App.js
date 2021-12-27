@@ -1,24 +1,29 @@
 import { useState } from "react";
-import {Route, Switch, Redirect } from "react-router-dom";
 import styles from "./App.module.css"
-import About from "./components/About/About";
 import Contacts from "./components/Contacts/Contacts";
 import Projects from "./components/Projects/Projects";
+import i18next from 'i18next';
 
 function App() {
 
-const[contactsVisible, setContactsVisible] = useState(true)
+const[contactsVisible, setContactsVisible] = useState(false)
+const[settingVisible, setSettingVisible] = useState(true)
+const[darkVisible, setDarkVisible] = useState(false)
+
+function handleClick(lang) {
+  i18next.changeLanguage(lang)
+}
 
   return (
-    <div className={styles.app}>
-      <Contacts  contactsVisible={contactsVisible}/>
-<Switch>
-<Route exact path='/' render={ () => <Projects  setContactsVisible={setContactsVisible} contactsVisible={contactsVisible}/> }/>
-<Route path='/about' render={ () => <About  setContactsVisible={setContactsVisible} contactsVisible={contactsVisible}/> }/>
+    <div className={darkVisible ? styles.appDark : styles.app}>
+ <Contacts  contactsVisible={contactsVisible} darkVisible={darkVisible} 
+ setDarkVisible={setDarkVisible} />
+
+<Projects  setContactsVisible={setContactsVisible} contactsVisible={contactsVisible}
+setSettingVisible={setSettingVisible} settingVisible={settingVisible} 
+darkVisible={darkVisible} setDarkVisible={setDarkVisible} handleClick={handleClick}/>
 
 
-<Redirect to="/" />
-</Switch>
     </div>
   );
 }
