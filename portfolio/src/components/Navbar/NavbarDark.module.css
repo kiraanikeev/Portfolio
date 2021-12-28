@@ -12,6 +12,7 @@
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 24px;
+    color: rgba(230, 225, 225, 0.884);
 }
 
 .link{
@@ -55,11 +56,11 @@
   }
   
   input:checked + .slider {
-    background-color: #463444;
+    background-color: #857d10;
   }
   
   input:focus + .slider {
-    box-shadow: 0 0 1px #463444;
+    box-shadow: 0 0 1px #857d10;
   }
   
   input:checked + .slider:before {
@@ -97,7 +98,7 @@
 
 
   .settingDiv{
-    background-color: rgba(231, 228, 228, 0.986);
+    background-color: rgba(92, 89, 89, 0.986);
     height: 40px;
     display: none;
     flex-direction: row;
@@ -108,13 +109,13 @@
     top: 15px;
     align-items: center;
     justify-content:space-evenly;
-    border: 2px black solid;
+    border: 2px rgb(255, 255, 255) solid;
     transition: all 0.5s ease-out;
     transform: translateX(-50px);
     opacity: 0;
   }
   .settingDivActive{
-    background-color: rgba(231, 228, 228, 0.986);
+    background-color: rgba(43, 41, 41, 0.986);
     height: 40px;
     display: flex;
     flex-direction: row;
@@ -125,10 +126,11 @@
     top: 15px;
     align-items: center;
     justify-content:space-evenly;
-    border: 2px black solid;
+    border: 2px rgb(255, 255, 255) solid;
     transition: all 0.5s ease-out;
     transform: translateX(0px);
     opacity: 1;
+  
   }
 
   .settings{
@@ -142,6 +144,8 @@ height: 40px;
 width: 55px;
 border-top-left-radius:7px;
 border-bottom-left-radius:7px;
+background-color: rgba(43, 41, 41, 0.986);
+
   }
   .settingButtonTwo{
     border: none;
@@ -149,6 +153,8 @@ border-bottom-left-radius:7px;
     width: 55px;
     border-top-right-radius:7px;
     border-bottom-right-radius:7px;
+    background-color: rgba(43, 41, 41, 0.986);
+   
       }
   .settingButtonOne:hover{
     border-right: 1px black solid;
@@ -162,7 +168,7 @@ border-bottom-left-radius:7px;
   }
 
   .translateDiv{
-    background-color: rgba(231, 228, 228, 0.986);
+    background-color: rgba(255, 255, 255, 0.986);
     height: 80px;
     display: flex;
     flex-direction: row;
@@ -173,7 +179,7 @@ border-bottom-left-radius:7px;
     top: -5px;
     align-items: center;
     justify-content:space-evenly;
-    border: 2px black solid;
+    border: 2px rgb(255, 255, 255) solid;
     transition: all 0.5s ease-out;
     transform: translateX(0px);
     opacity: 1;
@@ -182,7 +188,7 @@ border-bottom-left-radius:7px;
   }
 
   .translateDivHidden{
-    background-color: rgba(231, 228, 228, 0.986);
+    background-color: rgba(255, 255, 255, 0.986);
     height: 80px;
     display: flex;
     flex-direction: row;
@@ -193,7 +199,7 @@ border-bottom-left-radius:7px;
     top: 15px;
     align-items: center;
     justify-content:space-evenly;
-    border: 2px black solid;
+    border: 2px rgb(255, 255, 255) solid;
     transition: all 0.5s ease-out;
     transform: translateX(0px);
  display: none;
@@ -201,7 +207,7 @@ border-bottom-left-radius:7px;
   }
 
   .translatebuttonRU{
-height: 39px;
+height: 40px;
 border: none;
 justify-content: center;
 display: flex;
@@ -212,16 +218,16 @@ font-family: 'Roboto', sans-serif;
     width: 43px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+    background-color: rgba(43, 41, 41, 0.986);
+    color: rgba(230, 225, 225, 0.884);
   }
-
-  
   .translatebuttonRU:hover{
-    background-color: rgb(241, 217, 1);
+    background-color: rgba(70, 69, 66, 0.589);
     border-bottom: 2px black solid;
 
   }
   .translatebuttonEN{
-    height: 39px;
+    height: 40px;
     border: none;
     justify-content: center;
 display: flex;
@@ -232,10 +238,11 @@ font-family: 'Roboto', sans-serif;
     width: 43px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
-    
+    background-color: rgba(43, 41, 41, 0.986);
+    color: rgba(230, 225, 225, 0.884);
   }
   .translatebuttonEN:hover{
-    background-color: rgb(241, 217, 1);
+    background-color: rgba(70, 69, 66, 0.589);
     border-top: 2px black solid;
   }
 
@@ -244,7 +251,7 @@ font-family: 'Roboto', sans-serif;
 
 
   .lightDiv{
-    background-color: rgba(231, 228, 228, 0.986);
+    background-color: rgba(255, 255, 255, 0.986);
     height: 80px;
     display: flex;
     flex-direction: row;
@@ -255,7 +262,7 @@ font-family: 'Roboto', sans-serif;
     top: -5px;
     align-items: center;
     justify-content:space-evenly;
-    border: 2px black solid;
+    border: 2px rgb(255, 255, 255) solid;
     transition: all 0.5s ease-out;
     transform: translateX(0px);
     opacity: 1;
@@ -264,7 +271,7 @@ font-family: 'Roboto', sans-serif;
   }
 
   .lightDivHidden{
-    background-color: rgba(231, 228, 228, 0.986);
+    background-color: rgba(255, 255, 255, 0.986);
     height: 80px;
     display: flex;
     flex-direction: row;
@@ -275,7 +282,7 @@ font-family: 'Roboto', sans-serif;
     top: 15px;
     align-items: center;
     justify-content:space-evenly;
-    border: 2px black solid;
+    border: 2px rgb(255, 255, 255) solid;
     transition: all 0.5s ease-out;
     transform: translateX(0px);
  display: none;
@@ -283,7 +290,7 @@ font-family: 'Roboto', sans-serif;
   }
 
   .lightbuttonRU{
-height: 39px;
+height: 40px;
 border: none;
 justify-content: center;
 display: flex;
@@ -294,16 +301,15 @@ font-family: 'Roboto', sans-serif;
     width: 43px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+    background-color: rgba(43, 41, 41, 0.986);
   }
-
-
   .lightbuttonRU:hover{
-    background-color: rgb(241, 217, 1);
+    background-color: rgba(70, 69, 66, 0.589);
     border-bottom: 2px black solid;
 
   }
   .lightbuttonEN{
-    height: 39px;
+    height: 40px;
     border: none;
     justify-content: center;
 display: flex;
@@ -314,9 +320,10 @@ font-family: 'Roboto', sans-serif;
     width: 43px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
+    background-color: rgba(43, 41, 41, 0.986);
     
   }
   .lightbuttonEN:hover{
-    background-color: rgb(241, 217, 1);
+    background-color: rgba(70, 69, 66, 0.589);
     border-top: 2px black solid;
   }

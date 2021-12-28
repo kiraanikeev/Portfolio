@@ -2,14 +2,16 @@ import React , { Suspense } from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import styles from "./App.module.css"
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter} from "react-router-dom";
+import time from './img/time-6-128.png'
 import './i18n';
 
 ReactDOM.render(
   <React.StrictMode>
     <BrowserRouter>
-    <Suspense fallback={(<div>Loading</div>)}>
+    <Suspense fallback={(<div><img className={styles.time} src={time}/></div>)}>
         <App />
     </Suspense>
     </BrowserRouter>

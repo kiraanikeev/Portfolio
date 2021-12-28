@@ -66,5 +66,7 @@
         "description": "description:",
         "technology": "technology:"
     },
-    "Navbar": "Contacts"
+    "Navbar": "Contacts",
+    "Phrases":["drinks a lot of tea","wants to know everything","works even at night","I also know how to create websites", "together we will succeed", "just a nice guy", "not so bad", "made up these phrases myself", "likes to study", "strives for the best", "self-learning, just keep up to feed", "will smile back", "your future colleague","will make a company on a hike"],
+    "Phrase1":"works even at night"
 }

@@ -11,13 +11,16 @@
 }
 
 .appDark{
-  background: #E6C40E;
-  background: -webkit-linear-gradient(top left, #E6C40E, #D1CEDC);
-  background: -moz-linear-gradient(top left, #E6C40E, #D1CEDC);
-  background: linear-gradient(to bottom right, #E6C40E, #D1CEDC);
+  background-color: #222121;
   width: 100%;
   height: 100%;
   display: flex;
   justify-content:center;
   padding: 50px 0 50px;
+}
+.time{
+  display: flex;
+  margin: 200px auto;
+  justify-content: start;
+  align-items: center;
 }

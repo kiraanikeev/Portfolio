@@ -62,14 +62,14 @@ function Projects(props) {
               slideIndex === index + 1 ? styles.activeAnim : styles.slide
             }
           >
-            <img className={styles.img} src={process.env.PUBLIC_URL + `/Imgs/${index + 1}.png`} />
-            <h3 className={styles.title}>{obj.title}</h3>
+         <a href={obj.link}><img className={!props.darkVisible ? styles.img : stylesDark.img} src={process.env.PUBLIC_URL + `/Imgs/${index + 1}.png`} /></a> 
+            <h3 className={!props.darkVisible ? styles.title : stylesDark.title}>{obj.title}</h3>
            <div className={styles.container}>
-            <div className={styles.headingContainer}>
-            <span className={styles.span}><h4 className={styles.headline}>{t('Headline.link')}</h4><a href={obj.link} className={styles.link}>{obj.link}</a></span>
-            <span className={styles.span}><h4 className={styles.headline}>{t('Headline.kod')}</h4><a href={obj.kod} className={styles.link}>{obj.kod}</a></span>
-            <span className={styles.span}><h4 className={styles.headline}>{t('Headline.description')}</h4><p className={styles.textP}>{obj.description}</p></span> 
-            <span className={styles.span}><h4 className={styles.headline}>{t('Headline.technology')}</h4><p className={styles.textP}>{obj.technologyStack}</p></span> 
+            <div className={!props.darkVisible ? styles.headingContainer : stylesDark.headingContainer}>
+            <span className={styles.span}><h4 className={styles.headline}>{t('Headline.link')}</h4><a href={obj.link} className={!props.darkVisible ? styles.link : stylesDark.link}>{obj.link}</a></span>
+            <span className={styles.span}><h4 className={styles.headline}>{t('Headline.kod')}</h4><a href={obj.kod} className={!props.darkVisible ? styles.link : stylesDark.link}>{obj.kod}</a></span>
+            <span className={styles.span}><h4 className={styles.headline}>{t('Headline.description')}</h4><p className={!props.darkVisible ? styles.textP : stylesDark.textP}>{obj.description}</p></span> 
+            <span className={styles.span}><h4 className={styles.headline}>{t('Headline.technology')}</h4><p className={!props.darkVisible ? styles.textP : stylesDark.textP}>{obj.technologyStack}</p></span> 
             </div>
       
               </div>
@@ -83,7 +83,7 @@ function Projects(props) {
                 {Array.from({length: 6}).map((item, index) => (
                     <div 
                     onClick={() => moveDot(index + 1)}
-                    className={slideIndex === index + 1 ? styles.dotActive : styles.dot}
+                    className={slideIndex === index + 1 ? (!props.darkVisible ? styles.dotActive : stylesDark.dotActive) : (!props.darkVisible ?  styles.dot : stylesDark.dot)}
                     ></div>
                 ))}
             </div>
