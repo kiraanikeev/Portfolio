@@ -16,8 +16,9 @@ function handleClick(lang) {
 
   return (
     <div className={darkVisible ? styles.appDark : styles.app}>
- <Contacts  contactsVisible={contactsVisible} darkVisible={darkVisible} 
- setDarkVisible={setDarkVisible} />
+ <Contacts setContactsVisible={setContactsVisible} contactsVisible={contactsVisible}
+setSettingVisible={setSettingVisible} settingVisible={settingVisible} 
+darkVisible={darkVisible} setDarkVisible={setDarkVisible} handleClick={handleClick} />
 
 <Projects  setContactsVisible={setContactsVisible} contactsVisible={contactsVisible}
 setSettingVisible={setSettingVisible} settingVisible={settingVisible} 

@@ -24,7 +24,6 @@ const[lightVis, setLightlateVis]=useState(false)
             <span className={!props.darkVisible ? styles.button : stylesDark.button}>{t('Navbar')}
             <label className={styles.switch}>
             <input type="checkbox" onChange={()=>!props.contactsVisible ? props.setContactsVisible(true) : props.setContactsVisible(false)}/>
-            {/* <span className={`${!props.darkVisible ? styles.slider : stylesDark.slider} ${styles.round}`}></span> */}
             <span className={!props.darkVisible ? (`${ styles.slider} ${styles.round}`) : (`${ stylesDark.slider} ${stylesDark.round}`)}></span>
             </label>
             </span>

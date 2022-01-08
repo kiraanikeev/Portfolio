@@ -5,23 +5,21 @@
     align-items: center;
    
 }
-
+.link{
+  margin-right: 20px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  text-decoration: none;
+  color: black;
+}
 .button{
-    
     border: none;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 24px;
 }
 
-.link{
-    margin-right: 20px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-    font-size: 24px;
-    text-decoration: none;
-    color: black;
-}
 .switch {
     position: relative;
     top:4px;
@@ -129,6 +127,7 @@
     transition: all 0.5s ease-out;
     transform: translateX(0px);
     opacity: 1;
+
   }
 
   .settings{
@@ -320,3 +319,14 @@ font-family: 'Roboto', sans-serif;
     background-color: rgb(241, 217, 1);
     border-top: 2px black solid;
   }
+
+
+
+  @media screen and (max-width: 425px) {
+  .settingDivActive{
+    right: 55px;
+  }
+  }
+
+
+

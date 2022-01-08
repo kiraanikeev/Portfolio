@@ -43,6 +43,8 @@ function Contacts(props) {
         <div className={props.contactsVisible ? 
         ( !props.darkVisible ? styles.contacts :stylesDark.contacts) 
         : ( !props.darkVisible ? styles.hidden : stylesDark.hidden)}>
+
+
              <img src={foto} className={!props.darkVisible ? styles.foto : stylesDark.foto}/>  
              <div className={styles.section}>
              <h1  className={!props.darkVisible ? styles.name : stylesDark.name}>{t('Name.Name1')}</h1>
@@ -59,8 +61,6 @@ function Contacts(props) {
             className={styles.point}/>{t('Contacts.location')}</h3>
             <h3 className={!props.darkVisible ? styles.textH3 : stylesDark.textH3}>kiraanikeev@mail.ru</h3>
              <h3 className={!props.darkVisible ? styles.textH3 : stylesDark.textH3}>+7 995 330 10 09</h3>
-            {/* <button className={!props.darkVisible ? styles.button : stylesDark.button } onClick={handleEmailMe}>{t('Contacts.hire')}</button> */}
-            <div></div>
         </div>
     )
 }

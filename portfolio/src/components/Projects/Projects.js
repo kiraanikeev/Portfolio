@@ -53,7 +53,7 @@ function Projects(props) {
          darkVisible={props.darkVisible} setDarkVisible={props.setDarkVisible}
          handleClick={props.handleClick}/>
          <div
-      className={!props.darkVisible ? styles.containerSlider : stylesDark.containerSlider}>
+      className={!props.darkVisible ? (!props.contactsVisible ? styles.containerSlider : styles.containerSliderHidden ) : (!props.contactsVisible ? stylesDark.containerSlider : stylesDark.containerSliderHidden)}>
          {dataSliderObj.map((obj, index) => {
         return (
           <div
@@ -66,10 +66,10 @@ function Projects(props) {
             <h3 className={!props.darkVisible ? styles.title : stylesDark.title}>{obj.title}</h3>
            <div className={styles.container}>
             <div className={!props.darkVisible ? styles.headingContainer : stylesDark.headingContainer}>
-            <span className={styles.span}><h4 className={styles.headline}>{t('Headline.link')}</h4><a href={obj.link} className={!props.darkVisible ? styles.link : stylesDark.link}>{obj.link}</a></span>
-            <span className={styles.span}><h4 className={styles.headline}>{t('Headline.kod')}</h4><a href={obj.kod} className={!props.darkVisible ? styles.link : stylesDark.link}>{obj.kod}</a></span>
-            <span className={styles.span}><h4 className={styles.headline}>{t('Headline.description')}</h4><p className={!props.darkVisible ? styles.textP : stylesDark.textP}>{obj.description}</p></span> 
-            <span className={styles.span}><h4 className={styles.headline}>{t('Headline.technology')}</h4><p className={!props.darkVisible ? styles.textP : stylesDark.textP}>{obj.technologyStack}</p></span> 
+            <div className={styles.span}><h4 className={styles.headline}>{t('Headline.link')}</h4><a href={obj.link} className={!props.darkVisible ? styles.link : stylesDark.link}>{obj.link}</a></div>
+            <div className={styles.span}><h4 className={styles.headline}>{t('Headline.kod')}</h4><a href={obj.kod} className={!props.darkVisible ? styles.link : stylesDark.link}>{obj.kod}</a></div>
+            <div className={styles.span}><h4 className={styles.headline}>{t('Headline.description')}</h4><p className={!props.darkVisible ? styles.textP : stylesDark.textP}>{obj.description}</p></div> 
+            <div className={styles.span}><h4 className={styles.headline}>{t('Headline.technology')}</h4><p className={!props.darkVisible ? styles.textP : stylesDark.textP}>{obj.technologyStack}</p></div> 
             </div>
       
               </div>
