@@ -1,72 +1,86 @@
 {
-    "Name": {
-        "Name1": "KIRILL",
-        "Name2": "ANIKEEV"
+  "Name": {
+    "Name1": "KIRILL",
+    "Name2": "ANIKEEV"
+  },
+  "Contacts": {
+    "resume": "download resume",
+    "git": "github",
+    "location": "Kazan, Russia. Willing to relocate ",
+    "hire": "hire me"
+  },
+  "dataSliderTrans": [
+    {
+      "id": 1,
+      "title": "MESTO(react)",
+      "link": "https://kiraanikeev.github.io/mesto-React-/",
+      "kod": "https://github.com/kiraanikeev/mesto-React-",
+      "technologyStack": "React(useState, useEffect, useContext), Ajax(fetch(GET,PUT,POST,DELETE)), CSS(FLEX, GRID, Responsive design)",
+      "description": "Mesto is an interactive page for posting photos with the opportunity to edit a profile, delete your own publication, like and view the pictures."
     },
-    "Contacts": {
-        "resume": "download resume",
-        "git": "github",
-        "location": "Kazan, Russia. Willing to relocate ",
-        "hire": "hire me"
+    {
+      "id": 2,
+      "title": "Kirill's Pizza",
+      "link": "https://kiraanikeev.github.io/Kirill-s-Pizza/",
+      "kod": "https://github.com/kiraanikeev/Kirill-s-Pizza",
+      "technologyStack": "React(useState, useEffect, useContext, router), CSS(FLEX, GRID, Responsive design), localStorage",
+      "description": "Kirill's Pizza is a SPA simulating a pizza ordering site with the opportunity to add an order to the basket."
     },
-    "dataSliderTrans" : [
-        {
-          "id": 1,
-         "title": "MESTO(react)",
-          "link": "https://kiraanikeev.github.io/mesto-React-/",
-         "kod":"https://github.com/kiraanikeev/mesto-React-",
-         "technologyStack":"React(useState, useEffect, useContext), Ajax(fetch(GET,PUT,POST,DELETE)), CSS(FLEX, GRID, Responsive design)",
-          "description": "Mesto is an interactive page for posting photos with the opportunity to edit a profile, delete your own publication, like and view the pictures."
-        },
-        {
-          "id": 2,
-          "title": "Kirill's Pizza",
-          "link": "https://kiraanikeev.github.io/Kirill-s-Pizza/",
-          "kod":"https://github.com/kiraanikeev/Kirill-s-Pizza",
-          "technologyStack":"React(useState, useEffect, useContext, router), CSS(FLEX, GRID, Responsive design), localStorage",
-          "description": "Kirill's Pizza is a SPA simulating a pizza ordering site with the opportunity to add an order to the basket."
-        },
-        {
-          "id": 3,
-          "title": "Todo-app",
-          "link": "https://kiraanikeev.github.io/Todo-app/",
-          "kod":"https://github.com/kiraanikeev/Todo-app",
-          "technologyStack":"React(useState, useEffect), CSS(FLEX, Responsive design), localStorage",
-          "description": "Todo list is an application for writing tasks with the opportunity to mark completed, delete and edit labels."
-        },
-        {
-          "id": 4,
-          "title": "russian_travel",
-          "link": "https://kiraanikeev.github.io/russian_travel/",
-          "kod":"https://github.com/kiraanikeev/russian_travel",
-          "technologyStack":" CSS(FLEX, GRID, Responsive design)",
-          "description": "One of my first projects. A ordinary landing page without JavaScript"
-        },
-        {
-          "id": 5,
-          "title": "mesto-with-authorization",
-          "link": "https://kiraanikeev.github.io/mesto-with-authorization/",
-          "kod":"https://github.com/kiraanikeev/mesto-with-authorization",
-          "technologyStack":"React(useState, useEffect, useContext, useHistory, HOC, router), Ajax(fetch(GET,PUT,POST,DELETE)), CSS(FLEX, GRID, Responsive design)",
-          "description": "MESTO application with a modified opportunity to sign up and log in users."
-        },
-        {
-            "id": 6,
-            "title": "Sidebar-Navigation-Menu",
-            "link": "https://kiraanikeev.github.io/Sidebar-Navigation-Menu/",
-            "kod":"https://github.com/kiraanikeev/Sidebar-Navigation-Menu",
-            "technologyStack":"React(router), CSS(FLEX, Responsive design)",
-            "description": "Ordinary SPA with the opportunity to go to different pages"
-    
-        }
-     ],
-     "Headline": {
-        "link": "link:",
-        "kod": "kod:",
-        "description": "description:",
-        "technology": "technology:"
+    {
+      "id": 3,
+      "title": "Todo-app",
+      "link": "https://kiraanikeev.github.io/Todo-app/",
+      "kod": "https://github.com/kiraanikeev/Todo-app",
+      "technologyStack": "React(useState, useEffect), CSS(FLEX, Responsive design), localStorage",
+      "description": "Todo list is an application for writing tasks with the opportunity to mark completed, delete and edit labels."
     },
-    "Navbar": "Contacts",
-    "Phrases":["drinks a lot of tea","wants to know everything","works even at night","I also know how to create websites", "together we will succeed", "just a nice guy", "not so bad", "made up these phrases myself", "likes to study", "strives for the best", "self-learning, just keep up to feed", "will smile back", "your future colleague","will make a company on a hike"],
-    "Phrase1":"works even at night"
+    {
+      "id": 4,
+      "title": "russian_travel",
+      "link": "https://kiraanikeev.github.io/russian_travel/",
+      "kod": "https://github.com/kiraanikeev/russian_travel",
+      "technologyStack": " CSS(FLEX, GRID, Responsive design)",
+      "description": "One of my first projects. A ordinary landing page without JavaScript"
+    },
+    {
+      "id": 5,
+      "title": "mesto-with-authorization",
+      "link": "https://kiraanikeev.github.io/mesto-with-authorization/",
+      "kod": "https://github.com/kiraanikeev/mesto-with-authorization",
+      "technologyStack": "React(useState, useEffect, useContext, useHistory, HOC, router), Ajax(fetch(GET,PUT,POST,DELETE)), CSS(FLEX, GRID, Responsive design)",
+      "description": "MESTO application with a modified opportunity to sign up and log in users."
+    },
+    {
+      "id": 6,
+      "title": "Sidebar-Navigation-Menu",
+      "link": "https://kiraanikeev.github.io/Sidebar-Navigation-Menu/",
+      "kod": "https://github.com/kiraanikeev/Sidebar-Navigation-Menu",
+      "technologyStack": "React(router), CSS(FLEX, Responsive design)",
+      "description": "Ordinary SPA with the opportunity to go to different pages"
+    }
+  ],
+  "Headline": {
+    "link": "link:",
+    "kod": "kod:",
+    "description": "description:",
+    "technology": "technology:"
+  },
+  "Navbar": "Contacts",
+  "Phrases": [
+    "drinks a lot of tea",
+    "wants to know everything",
+    "works even at night",
+    "I also know how to create websites",
+    "together we will succeed",
+    "just a nice guy",
+    "not so bad",
+    "made up these phrases myself",
+    "likes to study",
+    "strives for the best",
+    "self-learning, just keep up to feed",
+    "will smile back",
+    "your future colleague",
+    "will make a company on a hike"
+  ],
+  "Phrase1": "works even at night"
 }

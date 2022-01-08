@@ -1,41 +1,39 @@
-.app{
+.app {
   width: 100%;
   height: 100%;
   display: flex;
-  justify-content:center;
+  justify-content: center;
   padding: 53px 0 53px;
-
-
 }
 
-.appDark{
+.appDark {
   background-color: #222121;
   width: 100%;
   height: 100%;
   display: flex;
-  justify-content:center;
+  justify-content: center;
   padding: 53px 0 53px;
 }
-.time{
+.time {
   display: flex;
   margin: 200px auto;
   justify-content: start;
   align-items: center;
 }
 
-@media screen and (max-width: 768px){
-  .app{
+@media screen and (max-width: 768px) {
+  .app {
     padding: 50px 0 150px;
-}
-.appDark{
-  padding: 50px 0 150px;
-}
+  }
+  .appDark {
+    padding: 50px 0 150px;
+  }
 }
 @media screen and (max-width: 590px) {
-  .app{
+  .app {
     padding: 50px 0 200px;
-}
-.appDark{
-  padding: 50px 0 200px;
-}
+  }
+  .appDark {
+    padding: 50px 0 200px;
+  }
 }

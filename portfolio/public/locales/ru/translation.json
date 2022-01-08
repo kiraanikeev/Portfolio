@@ -1,72 +1,86 @@
 {
-    "Name": {
-        "Name1": "КИРИЛЛ",
-        "Name2": "АНИКЕЕВ"
+  "Name": {
+    "Name1": "КИРИЛЛ",
+    "Name2": "АНИКЕЕВ"
+  },
+  "Contacts": {
+    "resume": "скачать резюме",
+    "git": "github",
+    "location": "Казань, Россия. Готов к переезду ",
+    "hire": "наймите меня"
+  },
+  "dataSliderTrans": [
+    {
+      "id": 1,
+      "title": "MESTO(react)",
+      "link": "https://kiraanikeev.github.io/mesto-React-/",
+      "kod": "https://github.com/kiraanikeev/mesto-React-",
+      "technologyStack": "React(useState, useEffect, useContext), Ajax(fetch(GET,PUT,POST,DELETE)), CSS(FLEX, GRID, Responsive design)",
+      "description": "Это интерактивная страница для размещения фотографий с возможностью редактировать профиль, удалять собственную публикацию, ставить лайки и просматривать фотографии."
     },
-    "Contacts": {
-        "resume": "скачать резюме",
-        "git": "github",
-        "location": "Казань, Россия. Готов к переезду ",
-        "hire": "наймите меня"
+    {
+      "id": 2,
+      "title": "Kirill's Pizza",
+      "link": "https://kiraanikeev.github.io/Kirill-s-Pizza/",
+      "kod": "https://github.com/kiraanikeev/Kirill-s-Pizza",
+      "technologyStack": "React(useState, useEffect, useContext, router), CSS(FLEX, GRID, Responsive design), localStorage",
+      "description": "Kirill's Pizza - это одностраничное приложение, имитирующее сайт заказа пиццы с возможностью добавления заказа в корзину."
     },
-    "dataSliderTrans" : [
-        {
-          "id": 1,
-         "title": "MESTO(react)",
-          "link": "https://kiraanikeev.github.io/mesto-React-/",
-         "kod":"https://github.com/kiraanikeev/mesto-React-",
-         "technologyStack":"React(useState, useEffect, useContext), Ajax(fetch(GET,PUT,POST,DELETE)), CSS(FLEX, GRID, Responsive design)",
-          "description": "Это интерактивная страница для размещения фотографий с возможностью редактировать профиль, удалять собственную публикацию, ставить лайки и просматривать фотографии."
-        },
-        {
-          "id": 2,
-          "title": "Kirill's Pizza",
-          "link": "https://kiraanikeev.github.io/Kirill-s-Pizza/",
-          "kod":"https://github.com/kiraanikeev/Kirill-s-Pizza",
-          "technologyStack":"React(useState, useEffect, useContext, router), CSS(FLEX, GRID, Responsive design), localStorage",
-          "description": "Kirill's Pizza - это одностраничное приложение, имитирующее сайт заказа пиццы с возможностью добавления заказа в корзину."
-        },
-        {
-          "id": 3,
-          "title": "Todo-app",
-          "link": "https://kiraanikeev.github.io/Todo-app/",
-          "kod":"https://github.com/kiraanikeev/Todo-app",
-          "technologyStack":"React(useState, useEffect), CSS(FLEX, Responsive design), localStorage",
-          "description": "Todo - это приложение для написания задач с возможностью отмечать выполненные, удалять и редактировать заметки."
-        },
-        {
-          "id": 4,
-          "title": "russian_travel",
-          "link": "https://kiraanikeev.github.io/russian_travel/",
-          "kod":"https://github.com/kiraanikeev/russian_travel",
-          "technologyStack":" CSS(FLEX, GRID, Responsive design)",
-          "description": "Один из моих первых проектов. Обычный лендинг без использования JavaScript."
-        },
-        {
-          "id": 5,
-          "title": "mesto-with-authorization",
-          "link": "https://kiraanikeev.github.io/mesto-with-authorization/",
-          "kod":"https://github.com/kiraanikeev/mesto-with-authorization",
-          "technologyStack":"React(useState, useEffect, useContext, useHistory, HOC, router), Ajax(fetch(GET,PUT,POST,DELETE)), CSS(FLEX, GRID, Responsive design)",
-          "description": "Приложение MESTO с модифицированной возможностью регистрации и авторизации пользователей."
-        },
-        {
-            "id": 6,
-            "title": "Sidebar-Navigation-Menu",
-            "link": "https://kiraanikeev.github.io/Sidebar-Navigation-Menu/",
-            "kod":"https://github.com/kiraanikeev/Sidebar-Navigation-Menu",
-            "technologyStack":"React(router), CSS(FLEX, Responsive design)",
-            "description": "Обычное одностраничное приложение с возможностью перехода на разные страницы."
-    
-        }
-     ],
-    "Headline": {
-        "link": "ссылка:",
-        "kod": "код:",
-        "description": "описание:",
-        "technology": "технологии:"
+    {
+      "id": 3,
+      "title": "Todo-app",
+      "link": "https://kiraanikeev.github.io/Todo-app/",
+      "kod": "https://github.com/kiraanikeev/Todo-app",
+      "technologyStack": "React(useState, useEffect), CSS(FLEX, Responsive design), localStorage",
+      "description": "Todo - это приложение для написания задач с возможностью отмечать выполненные, удалять и редактировать заметки."
     },
-    "Navbar": "Контакты",
-    "Phrases":["пьет много чая","мечтает все знать","работает даже ночью","ещё и сайт умеет верстать", "вместе у нас все получится","просто приятный парень", "не так уж и плох", "сам придумал эти фразы", "любит учиться", "стремится к лучшему", "самообучающийся, просто продолжайте кормить", "улыбнется в ответ", "твой будущий коллега", "составит компанию в походе"],
-    "Phrase1":"работает даже ночью"
+    {
+      "id": 4,
+      "title": "russian_travel",
+      "link": "https://kiraanikeev.github.io/russian_travel/",
+      "kod": "https://github.com/kiraanikeev/russian_travel",
+      "technologyStack": " CSS(FLEX, GRID, Responsive design)",
+      "description": "Один из моих первых проектов. Обычный лендинг без использования JavaScript."
+    },
+    {
+      "id": 5,
+      "title": "mesto-with-authorization",
+      "link": "https://kiraanikeev.github.io/mesto-with-authorization/",
+      "kod": "https://github.com/kiraanikeev/mesto-with-authorization",
+      "technologyStack": "React(useState, useEffect, useContext, useHistory, HOC, router), Ajax(fetch(GET,PUT,POST,DELETE)), CSS(FLEX, GRID, Responsive design)",
+      "description": "Приложение MESTO с модифицированной возможностью регистрации и авторизации пользователей."
+    },
+    {
+      "id": 6,
+      "title": "Sidebar-Navigation-Menu",
+      "link": "https://kiraanikeev.github.io/Sidebar-Navigation-Menu/",
+      "kod": "https://github.com/kiraanikeev/Sidebar-Navigation-Menu",
+      "technologyStack": "React(router), CSS(FLEX, Responsive design)",
+      "description": "Обычное одностраничное приложение с возможностью перехода на разные страницы."
+    }
+  ],
+  "Headline": {
+    "link": "ссылка:",
+    "kod": "код:",
+    "description": "описание:",
+    "technology": "технологии:"
+  },
+  "Navbar": "Контакты",
+  "Phrases": [
+    "пьет много чая",
+    "мечтает все знать",
+    "работает даже ночью",
+    "ещё и сайт умеет верстать",
+    "вместе у нас все получится",
+    "просто приятный парень",
+    "не так уж и плох",
+    "сам придумал эти фразы",
+    "любит учиться",
+    "стремится к лучшему",
+    "самообучающийся, просто продолжайте кормить",
+    "улыбнется в ответ",
+    "твой будущий коллега",
+    "составит компанию в походе"
+  ],
+  "Phrase1": "работает даже ночью"
 }

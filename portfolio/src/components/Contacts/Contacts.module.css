@@ -1,63 +1,59 @@
-.contacts{
-    width: 350px;
-    height: 650px;
-    border-radius: 30px;
-    margin-right: 5px;
-    background-color: white;
-    position: relative;
-    box-shadow: inset 1px 1px 20px 3px rgb(0 0 0 / 50%);
-    opacity: 1;
-    transition: all 0.9s ease-out;
-    transform: translateX(0px);
-
+.contacts {
+  width: 350px;
+  height: 650px;
+  border-radius: 30px;
+  margin-right: 5px;
+  background-color: white;
+  position: relative;
+  box-shadow: inset 1px 1px 20px 3px rgb(0 0 0 / 50%);
+  opacity: 1;
+  transition: all 0.9s ease-out;
+  transform: translateX(0px);
 }
-.hidden{
-    opacity: 0;
-    transition: all 0.9s ease-out;
-    transform: translateX(-500px);
-    width: 350px;
-    height: 650px;
-    border-radius: 30px;
-    margin-right: 5px;
-    background-color: white;
-    position: relative;
-    box-shadow: inset 1px 1px 20px 3px rgb(0 0 0 / 50%);
-    
+.hidden {
+  opacity: 0;
+  transition: all 0.9s ease-out;
+  transform: translateX(-500px);
+  width: 350px;
+  height: 650px;
+  border-radius: 30px;
+  margin-right: 5px;
+  background-color: white;
+  position: relative;
+  box-shadow: inset 1px 1px 20px 3px rgb(0 0 0 / 50%);
 }
-  .foto{
-    width: 130px;
-    height: 130px;
-    border-radius: 50%;
-    position: relative; 
-    left: 50%;
-    transform: translateX(-62px);
-    top: 15px;
-    box-shadow: 1px 2px 20px 0px rgb(0 0 0 / 50%);
-    margin-bottom: 25px;
-    
+.foto {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  position: relative;
+  left: 50%;
+  transform: translateX(-62px);
+  top: 15px;
+  box-shadow: 1px 2px 20px 0px rgb(0 0 0 / 50%);
+  margin-bottom: 25px;
 }
-.text_h1{
-  font-family: 'Roboto', sans-serif;
+.text_h1 {
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 24px;
   display: flex;
   justify-content: center;
 }
-.text_h2{
-  font-family: 'Roboto', sans-serif;
+.text_h2 {
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 15px;
-color: #ffffff;;
-background: #5E5A5A;
-background: -webkit-linear-gradient(top, #5E5A5A, #4A3A59);
-background: -moz-linear-gradient(top, #5E5A5A, #4A3A59);
-background: linear-gradient(to bottom, #5E5A5A, #4A3A59);
-display: flex;
+  color: #ffffff;
+  background: #5e5a5a;
+  background: -webkit-linear-gradient(top, #5e5a5a, #4a3a59);
+  background: -moz-linear-gradient(top, #5e5a5a, #4a3a59);
+  background: linear-gradient(to bottom, #5e5a5a, #4a3a59);
+  display: flex;
   justify-content: center;
-  
 }
-.text_h3{
-  font-family: 'Roboto', sans-serif;
+.text_h3 {
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 17px;
   text-align: center;
@@ -65,95 +61,105 @@ display: flex;
   align-items: center;
   margin-top: 15px;
 }
-.download{
+.download {
   width: 20px;
   margin-right: 5px;
- margin-top: 10px;
- position: relative; 
- top: 3px
+  margin-top: 10px;
+  position: relative;
+  top: 3px;
 }
-.git{
+.git {
   width: 28px;
   margin-right: 5px;
-  position: relative; 
+  position: relative;
   top: 8px;
   margin-top: 10px;
 }
-.point{
-  position: relative; 
+.point {
+  position: relative;
   top: 8px;
   margin-right: 5px;
   margin-top: 10px;
 }
-.textH3{
-  font-family: 'Roboto', sans-serif;
+.textH3 {
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 17px;
   text-align: center;
   align-items: center;
   margin-bottom: 15px;
-
 }
 
-.section{
+.section {
   display: block;
   text-align: center;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
   margin: 0 auto;
   border: 1px black solid;
   width: 200px;
-  box-shadow: 2px 1px 10px #5E5A5A;
+  box-shadow: 2px 1px 10px #5e5a5a;
 }
-.name{
+.name {
   height: 20px;
   margin: 0;
   height: 47px;
   font-size: 36px;
 }
-.secondName{
+.secondName {
   height: 47px;
   margin: 0 auto;
   font-size: 32px;
   width: 180px;
   display: flex;
- justify-content: center;
+  justify-content: center;
   align-items: center;
 }
-.phrase{
+.phrase {
   height: 40px;
-margin: 0;
-margin-top: 5px;
+  margin: 0;
+  margin-top: 5px;
   font-size: 15px;
 }
-.arrows{
+.arrows {
   width: 20px;
   display: flex;
   margin: 5px auto;
   cursor: pointer;
 }
-.blink{
+.blink {
   -webkit-animation: blink 2s linear infinite;
   animation: blink 2s linear infinite;
 }
 @-webkit-keyframes blink {
-  50% { color: rgb(34, 34, 34); }
-  51% { color: rgba(34, 34, 34, 0); }
-  100% { color: rgba(34, 34, 34, 0); }
+  50% {
+    color: rgb(34, 34, 34);
+  }
+  51% {
+    color: rgba(34, 34, 34, 0);
+  }
+  100% {
+    color: rgba(34, 34, 34, 0);
+  }
 }
 @keyframes blink {
-  50% { color: rgb(34, 34, 34); }
-  51% { color: rgba(34, 34, 34, 0); }
-  100% { color: rgba(34, 34, 34, 0); }
+  50% {
+    color: rgb(34, 34, 34);
+  }
+  51% {
+    color: rgba(34, 34, 34, 0);
+  }
+  100% {
+    color: rgba(34, 34, 34, 0);
+  }
 }
-.resume{
+.resume {
   text-decoration: none;
   color: #000;
 }
 
-
 @media screen and (max-width: 1200px) {
-  .contacts{
+  .contacts {
     width: 350px;
     height: 650px;
     border-radius: 30px;
@@ -164,52 +170,48 @@ margin-top: 5px;
     opacity: 1;
     transition: all 0.9s ease-out;
     transform: translateX(0px);
-    
-}
-
+  }
 }
 
 @media screen and (max-width: 768px) {
-  .contacts{
-top:80px;
-left:0%;
+  .contacts {
+    top: 80px;
+    left: 0%;
     z-index: 2;
     width: 310px;
     box-shadow: inset 0px 0px 0px 0px rgb(255, 255, 255);
     height: 550px;
     border-radius: 30px;
     transform: translateX(0px);
-}
-.hidden{
-  opacity: 0;
-  transition: all 0.9s ease-out;
-  transform: translateX(0px);
-  height: 550px;
-}
+  }
+  .hidden {
+    opacity: 0;
+    transition: all 0.9s ease-out;
+    transform: translateX(0px);
+    height: 550px;
+  }
 
-.text_h3{
-  margin-top: 15px;
-}
-.download{
- margin-top: 5px;
-}
-.git{
-  margin-top: 0px;
-}
-.point{
-  margin-top: 0px;
-}
+  .text_h3 {
+    margin-top: 15px;
+  }
+  .download {
+    margin-top: 5px;
+  }
+  .git {
+    margin-top: 0px;
+  }
+  .point {
+    margin-top: 0px;
+  }
 }
 
 @media screen and (max-width: 425px) {
-  .contacts{
-        width: 260px;
-    }
-
+  .contacts {
+    width: 260px;
+  }
 }
 @media screen and (max-width: 320px) {
-  .contacts{
-        width: 220px;
-    }
-
+  .contacts {
+    width: 220px;
+  }
 }

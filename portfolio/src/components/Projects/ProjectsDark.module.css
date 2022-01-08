@@ -1,23 +1,22 @@
-.projects{
+.projects {
   width: 950px;
   height: 650px;
   background-color: rgb(19, 18, 18);
   border-radius: 30px;
-  box-shadow:  1px 1px 20px 3px rgb(255, 255, 255);
+  box-shadow: 1px 1px 20px 3px rgb(255, 255, 255);
   transition: all 0.9s ease-out;
   transform: translateX(0px);
-
 }
-.projectsTransform{
+.projectsTransform {
   transition: all 0.9s ease-out;
   transform: translateX(-170px);
   width: 950px;
   height: 650px;
   background-color: rgb(19, 18, 18);
   border-radius: 30px;
-  box-shadow:  1px 1px 20px 3px rgb(255, 255, 255);
+  box-shadow: 1px 1px 20px 3px rgb(255, 255, 255);
 }
-.containerSliderHidden{
+.containerSliderHidden {
   max-width: 900px;
   height: 550px;
   margin: 0px auto 0;
@@ -27,9 +26,8 @@
   transition: 0.8s;
   display: flex;
   justify-content: center;
-    }
+}
 .containerSlider {
-
   max-width: 900px;
   height: 550px;
   margin: 0px auto 0;
@@ -39,9 +37,8 @@
   transition: 0.8s;
   display: flex;
   justify-content: center;
-  
 }
-.img{
+.img {
   max-width: 650px;
   height: 250px;
   box-shadow: 1px 2px 20px 0px rgba(252, 252, 252, 0.76);
@@ -103,32 +100,31 @@
   text-align: center;
   color: rgba(230, 225, 225, 0.884);
 }
-.headline{
-    color: #6d6868;;
-    width: 110px;
+.headline {
+  color: #6d6868;
+  width: 110px;
   margin: 16px 10px;
 }
-.link{
+.link {
   margin-top: 15px;
   text-decoration: none;
   position: relative;
-width: 730px;
-font-weight: 500;
-color: rgba(230, 225, 225, 0.884);
+  width: 730px;
+  font-weight: 500;
+  color: rgba(230, 225, 225, 0.884);
 }
-.textP{
-position: relative;
-width: 730px;
-font-weight: 500;
-color: rgba(230, 225, 225, 0.884);
+.textP {
+  position: relative;
+  width: 730px;
+  font-weight: 500;
+  color: rgba(230, 225, 225, 0.884);
 }
-
 
 .containerDots {
   position: absolute;
   bottom: 10px;
   left: 50%;
-  top:56%;
+  top: 56%;
   transform: translateX(-50%);
   display: flex;
 }
@@ -151,158 +147,154 @@ color: rgba(230, 225, 225, 0.884);
   margin: 0 5px;
   cursor: pointer;
 }
-.span{
+.span {
   display: flex;
-  align-items:flex-start;
-height: 50px;
+  align-items: flex-start;
+  height: 50px;
 }
-.container{
+.container {
   display: flex;
   margin: 5px;
 }
-.headingContainer{
+.headingContainer {
   background-color: rgb(39, 38, 38);
   width: 100%;
   height: 210px;
   margin-top: 15px;
 }
 
-
-
 @media screen and (max-width: 1200px) {
-  .link{
-  width: 630px;
+  .link {
+    width: 630px;
   }
-  .textP{
-  width: 630px;
+  .textP {
+    width: 630px;
   }
-  .span{
+  .span {
     height: 60px;
     width: 100%;
     justify-content: center;
-    }
-    .span:nth-of-type(1) {
-      height: 45px;
-      width: 100%;
-      justify-content: center;
-      }
-      .span:nth-of-type(2) {
-        height: 45px;
-        width: 100%;
-        justify-content: center;
-        }
   }
-  
-  @media screen and (max-width: 1050px) {
-    .headline{
-      width: 70px;
-    font-size: 13px;
-    }
-    .link{
-      margin-top: 15px;
-    width: 470px;
-    font-size: 14px;
-    }
-    .textP{
-      margin-top: 15px;
-    width: 470px;
-    font-size: 14px;
-    }
-    .projectsTransform{
-      transform: translateX(-120px);
-    }
+  .span:nth-of-type(1) {
+    height: 45px;
+    width: 100%;
+    justify-content: center;
   }
-  
-  
-  @media screen and (max-width: 768px) {
-    .containerSliderHidden{
-      display: none;
-        }
-    .projectsTransform{
-      position: absolute;
-  transform: translateX(0px); 
-  width: 95%;
-    }
-    .projects{
-      position: absolute;
-  transform: translateX(0px); 
-  width: 350px;
-    }
+  .span:nth-of-type(2) {
+    height: 45px;
+    width: 100%;
+    justify-content: center;
   }
-  
-  @media screen and (max-width: 590px) {
-    .headline{
-      width: 68px;
-    font-size: 12px;
-    }
-    .link{
-    width: 325px;
-    font-size: 12px;
-    }
-    .textP{
-    width: 325px;
-    font-size: 12px;
-    }
+}
 
-    .projects{
-      height: 700px;
-    }
-    .projectsTransform{
-      height: 700px;
-    }
-    .containerSlider {
-      height: 580px;
-   
-    }
-    .headingContainer{
-      height: 235px;
-    }
-    .containerDots {
-      top:54%;
-    }
+@media screen and (max-width: 1050px) {
+  .headline {
+    width: 70px;
+    font-size: 13px;
   }
-  @media screen and (max-width: 425px) {
-    .projectsTransform{
-  width: 100%;
-    }
-    .headline{
-      width: 50px;
+  .link {
+    margin-top: 15px;
+    width: 470px;
+    font-size: 14px;
+  }
+  .textP {
+    margin-top: 15px;
+    width: 470px;
+    font-size: 14px;
+  }
+  .projectsTransform {
+    transform: translateX(-120px);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .containerSliderHidden {
+    display: none;
+  }
+  .projectsTransform {
+    position: absolute;
+    transform: translateX(0px);
+    width: 95%;
+  }
+  .projects {
+    position: absolute;
+    transform: translateX(0px);
+    width: 350px;
+  }
+}
+
+@media screen and (max-width: 590px) {
+  .headline {
+    width: 68px;
+    font-size: 12px;
+  }
+  .link {
+    width: 325px;
+    font-size: 12px;
+  }
+  .textP {
+    width: 325px;
+    font-size: 12px;
+  }
+
+  .projects {
+    height: 700px;
+  }
+  .projectsTransform {
+    height: 700px;
+  }
+  .containerSlider {
+    height: 580px;
+  }
+  .headingContainer {
+    height: 235px;
+  }
+  .containerDots {
+    top: 54%;
+  }
+}
+@media screen and (max-width: 425px) {
+  .projectsTransform {
+    width: 100%;
+  }
+  .headline {
+    width: 50px;
     font-size: 9px;
-    }
-    .link{
-    width: 245px;
-    font-size: 10px;
-    margin-top: 15px;
-    
-    }
-    .textP{
-    width: 245px;
-    font-size: 10px;
-    margin-top: 15px;
-    }
-    .span{
-    height: 55px;
-    }
-    .containerSlider {
-      width: 95%;
-    }
-    .projects{
-      width: 310px;
-        }
   }
-  @media screen and (max-width: 320px) {
-    .headline{
-      width: 45px;
+  .link {
+    width: 245px;
+    font-size: 10px;
+    margin-top: 15px;
+  }
+  .textP {
+    width: 245px;
+    font-size: 10px;
+    margin-top: 15px;
+  }
+  .span {
+    height: 55px;
+  }
+  .containerSlider {
+    width: 95%;
+  }
+  .projects {
+    width: 310px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .headline {
+    width: 45px;
     font-size: 8px;
-    }
-    .link{
-      width: 215px;
-      font-size: 9px;    
-      }
-      .projects{
-        width: 100%;
-          }
-      .textP{
-      width: 215px;
-      font-size: 9px;
-  } }
+  }
+  .link {
+    width: 215px;
+    font-size: 9px;
+  }
+  .projects {
+    width: 100%;
+  }
+  .textP {
+    width: 215px;
+    font-size: 9px;
+  }
+}
