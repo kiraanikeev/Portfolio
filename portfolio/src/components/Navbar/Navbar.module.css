@@ -136,14 +136,14 @@ input:checked + .slider:before {
 .settingButtonOne {
   border: none;
   height: 40px;
-  width: 55px;
+  width: 51px;
   border-top-left-radius: 7px;
   border-bottom-left-radius: 7px;
 }
 .settingButtonTwo {
   border: none;
   height: 40px;
-  width: 55px;
+  width: 51px;
   border-top-right-radius: 7px;
   border-bottom-right-radius: 7px;
 }
@@ -307,5 +307,11 @@ input:checked + .slider:before {
 @media screen and (max-width: 425px) {
   .settingDivActive {
     right: 55px;
+  }
+  .translateDiv {
+    right: 55px;
+  }
+  .lightDiv {
+    right: 102px;
   }
 }
