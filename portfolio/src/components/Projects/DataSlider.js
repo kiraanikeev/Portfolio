@@ -56,14 +56,14 @@ const dataSlider = [
     technologyStack: "React(router), CSS(FLEX, Responsive design)",
     description: "Ordinary SPA with the opportunity to go to different pages",
   },
-  // {
-  //   id: 7,
-  //   title: "mesto-with-authorization",
-  //   link: "https://kiraanikeev.github.io/mesto-with-authorization/",
-  //   kod:"https://github.com/kiraanikeev/mesto-with-authorization",
-  //   technologyStack:"React(useState, useEffect, useContext, useHistory, HOC, router), Ajax(fetch(GET,PUT,POST,DELETE)), CSS(FLEX, GRID, Responsive design)",
-  //   description: "MESTO application with a modified opportunity to sign up and log in users.",
-  // },
+  {
+    "id": 7,
+    "title": "MESTO(JavaScript)",
+    "link": "https://kiraanikeev.github.io/mesto/",
+    "kod": "https://github.com/kiraanikeev/mesto",
+    "technologyStack": "OOP(Classes), Ajax(fetch(GET,PUT,POST,DELETE)), CSS(FLEX, GRID, Responsive design, BEM), Webpack",
+    "description": "MESTO application created in vanilla JavaScript with form validation and additional verification when deleting cards."
+  }
 ];
 
 export default dataSlider;

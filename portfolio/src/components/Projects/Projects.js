@@ -155,7 +155,7 @@ function Projects(props) {
         <BtnSlider moveSlide={prevSlide} direction={"prev"} />
 
         <div className={styles.containerDots}>
-          {Array.from({ length: 6 }).map((item, index) => (
+          {Array.from({ length: 7 }).map((item, index) => (
             <div
               onClick={() => moveDot(index + 1)}
               className={

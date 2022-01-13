@@ -32,6 +32,7 @@
   top: 15px;
   box-shadow: 1px 2px 20px 0px rgba(252, 252, 252, 0.76);
   margin-bottom: 25px;
+  object-fit: cover;
 }
 .text_h1 {
   font-family: "Roboto", sans-serif;

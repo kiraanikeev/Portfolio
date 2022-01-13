@@ -12,7 +12,7 @@
   "dataSliderTrans": [
     {
       "id": 1,
-      "title": "MESTO(react)",
+      "title": "MESTO (React)",
       "link": "https://kiraanikeev.github.io/mesto-React-/",
       "kod": "https://github.com/kiraanikeev/mesto-React-",
       "technologyStack": "React(useState, useEffect, useContext), Ajax(fetch(GET,PUT,POST,DELETE)), CSS(FLEX, GRID, Responsive design)",
@@ -32,31 +32,39 @@
       "link": "https://kiraanikeev.github.io/Todo-app/",
       "kod": "https://github.com/kiraanikeev/Todo-app",
       "technologyStack": "React(useState, useEffect), CSS(FLEX, Responsive design), localStorage",
-      "description": "Todo - это приложение для написания задач с возможностью отмечать выполненные, удалять и редактировать заметки."
+      "description": "Это приложение для написания задач с возможностью отмечать выполненные, удалять и редактировать заметки."
     },
     {
       "id": 4,
-      "title": "russian_travel",
+      "title": "Russian travel",
       "link": "https://kiraanikeev.github.io/russian_travel/",
       "kod": "https://github.com/kiraanikeev/russian_travel",
-      "technologyStack": " CSS(FLEX, GRID, Responsive design)",
-      "description": "Один из моих первых проектов. Обычный лендинг без использования JavaScript."
+      "technologyStack": " CSS(FLEX, GRID, Responsive design, BEM)",
+      "description": "Это один из моих первых проектов. Обычный лендинг без использования JavaScript."
     },
     {
       "id": 5,
-      "title": "mesto-with-authorization",
+      "title": "MESTO (with authorization)",
       "link": "https://kiraanikeev.github.io/mesto-with-authorization/",
       "kod": "https://github.com/kiraanikeev/mesto-with-authorization",
-      "technologyStack": "React(useState, useEffect, useContext, useHistory, HOC, router), Ajax(fetch(GET,PUT,POST,DELETE)), CSS(FLEX, GRID, Responsive design)",
+      "technologyStack": "React(useState, useEffect, useContext, useHistory, HOC, router), Ajax(fetch(GET,PUT,POST,DELETE)), localStorage, CSS(FLEX, GRID)",
       "description": "Приложение MESTO с модифицированной возможностью регистрации и авторизации пользователей."
     },
     {
       "id": 6,
-      "title": "Sidebar-Navigation-Menu",
+      "title": "Sidebar Navigation Menu",
       "link": "https://kiraanikeev.github.io/Sidebar-Navigation-Menu/",
       "kod": "https://github.com/kiraanikeev/Sidebar-Navigation-Menu",
       "technologyStack": "React(router), CSS(FLEX, Responsive design)",
       "description": "Обычное одностраничное приложение с возможностью перехода на разные страницы."
+    },
+    {
+      "id": 7,
+      "title": "MESTO (JavaScript)",
+      "link": "https://kiraanikeev.github.io/mesto/",
+      "kod": "https://github.com/kiraanikeev/mesto",
+      "technologyStack": "OOP(Classes), Ajax(fetch(GET,PUT,POST,DELETE)), CSS(FLEX, GRID, Responsive design, BEM), Webpack",
+      "description": "Приложение MESTO, написанное на ванильном JavaScript с валидацией форм и дополнительной проверкой при удалении карточек."
     }
   ],
   "Headline": {
