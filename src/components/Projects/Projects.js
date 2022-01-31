@@ -81,13 +81,11 @@ function Projects(props) {
                 slideIndex === index + 1 ? styles.activeAnim : styles.slide
               }
             >
-              <a href={obj.link}>
-                <img
+                <img key={obj.id}
                   className={!props.darkVisible ? styles.img : stylesDark.img}
                   src={process.env.PUBLIC_URL + `/Imgs/${index + 1}.png`}
                 />
-              </a>
-              <h3
+                 <h3
                 className={!props.darkVisible ? styles.title : stylesDark.title}
               >
                 {obj.title}
@@ -100,8 +98,8 @@ function Projects(props) {
                       : stylesDark.headingContainer
                   }
                 >
-                  <div className={styles.span}>
-                    <h4 className={styles.headline}>{t("Headline.link")}</h4>
+                  {index < 7 && <div className={styles.span} key={obj.index}>
+                   <h4 className={styles.headline}>{t("Headline.link")}</h4>
                     <a
                       href={obj.link}
                       className={
@@ -110,19 +108,19 @@ function Projects(props) {
                     >
                       {obj.link}
                     </a>
-                  </div>
-                  <div className={styles.span}>
+                  </div>}
+                  <div className={styles.span} key={obj.index}>
                     <h4 className={styles.headline}>{t("Headline.kod")}</h4>
-                    <a
+                     <a
                       href={obj.kod}
                       className={
                         !props.darkVisible ? styles.link : stylesDark.link
                       }
                     >
                       {obj.kod}
-                    </a>
-                  </div>
-                  <div className={styles.span}>
+                    </a> 
+                   </div>
+                  <div className={styles.span} key={obj.index}>
                     <h4 className={styles.headline}>
                       {t("Headline.description")}
                     </h4>
@@ -134,7 +132,7 @@ function Projects(props) {
                       {obj.description}
                     </p>
                   </div>
-                  <div className={styles.span}>
+                  <div className={styles.span} key={obj.index}>
                     <h4 className={styles.headline}>
                       {t("Headline.technology")}
                     </h4>
@@ -155,8 +153,9 @@ function Projects(props) {
         <BtnSlider moveSlide={prevSlide} direction={"prev"} />
 
         <div className={styles.containerDots}>
-          {Array.from({ length: 7 }).map((item, index) => (
+          {Array.from({ length: 9 }).map((item, index) => (
             <div
+            key={item}
               onClick={() => moveDot(index + 1)}
               className={
                 slideIndex === index + 1

@@ -2,10 +2,10 @@ import React, { Suspense } from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
 import App from "./App";
-import styles from "./App.module.css";
+import styles from "./Preloader.module.css";
 import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter } from "react-router-dom";
-import time from "./img/time-6-128.png";
+// import time from "./img/time-6-128.png";
 import "./i18n";
 
 ReactDOM.render(
@@ -13,9 +13,15 @@ ReactDOM.render(
     <BrowserRouter>
       <Suspense
         fallback={
-          <div>
-            <img className={styles.time} src={time} />
+          // <div>
+          //   <img className={styles.time} src={time} />
+          // </div>
+          <div className={styles.preloader}>
+          <div className={styles.preloader__container}>
+            <span className={styles.preloader__round}></span>
           </div>
+        </div>
+
         }
       >
         <App />

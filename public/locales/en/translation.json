@@ -65,10 +65,26 @@
       "kod": "https://github.com/kiraanikeev/mesto",
       "technologyStack": "OOP(Classes), Ajax(fetch(GET,PUT,POST,DELETE)), CSS(FLEX, GRID, Responsive design, BEM), Webpack",
       "description": "It is an application created in vanilla JavaScript with form validation and additional verification when deleting cards."
+    },
+    {
+      "id": 8,
+      "title": "Integration of WebSocket with Redux Saga",
+      "link": "https://github.com/kiraanikeev/Integration-of-WS-with-Redux-Saga",
+      "kod": "https://github.com/kiraanikeev/Integration-of-WS-with-Redux-Saga",
+      "technologyStack": "React(react-window), Redux(useSelector, useDispatch, reselect), Redux-Saga(eventChannel) localStorage, WebSocket",
+      "description": "An event channel is created on Redux-Saga and with each response from WS, information from the server is conveyed to the user."
+    }, 
+    {
+      "id": 9,
+      "title": "Table with backend",
+      "link": "https://github.com/kiraanikeev/Table-with-back-end",
+      "kod": "https://github.com/kiraanikeev/Table-with-back-end",
+      "technologyStack": "FRONT: React(useState, useEffect, pagination, validation), Axios, CSS(FLEX, Responsive design). BACK: MongoDB, Express.js",
+      "description": "The app receives the database from the created server and provides the search result using three-level filtering."
     }
   ],
   "Headline": {
-    "link": "link:",
+    "link": "link",
     "kod": "kod:",
     "description": "description:",
     "technology": "technology:"

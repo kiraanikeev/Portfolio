@@ -63,6 +63,22 @@ const dataSlider = [
     "kod": "https://github.com/kiraanikeev/mesto",
     "technologyStack": "OOP(Classes), Ajax(fetch(GET,PUT,POST,DELETE)), CSS(FLEX, GRID, Responsive design, BEM), Webpack",
     "description": "MESTO application created in vanilla JavaScript with form validation and additional verification when deleting cards."
+  },
+  {
+    "id": 8,
+    "title": "Integration of WebSocket with Redux Saga",
+    "link": "https://github.com/kiraanikeev/Integration-of-WS-with-Redux-Saga",
+    "kod": "https://github.com/kiraanikeev/Integration-of-WS-with-Redux-Saga",
+    "technologyStack": "OOP(Classes), Ajax(fetch(GET,PUT,POST,DELETE)), CSS(FLEX, GRID, Responsive design, BEM), Webpack",
+    "description": "MESTO application created in vanilla JavaScript with form validation and additional verification when deleting cards."
+  },  
+  {
+    "id": 9,
+    "title": "Table with back end",
+    "link": "https://github.com/kiraanikeev/Table-with-back-end",
+    "kod": "https://github.com/kiraanikeev/Table-with-back-end",
+    "technologyStack": "OOP(Classes), Ajax(fetch(GET,PUT,POST,DELETE)), CSS(FLEX, GRID, Responsive design, BEM), Webpack",
+    "description": "MESTO application created in vanilla JavaScript with form validation and additional verification when deleting cards."
   }
 ];
 

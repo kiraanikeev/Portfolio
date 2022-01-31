@@ -65,10 +65,26 @@
       "kod": "https://github.com/kiraanikeev/mesto",
       "technologyStack": "OOP(Classes), Ajax(fetch(GET,PUT,POST,DELETE)), CSS(FLEX, GRID, Responsive design, BEM), Webpack",
       "description": "Приложение MESTO, написанное на ванильном JavaScript с валидацией форм и дополнительной проверкой при удалении карточек."
+    },
+    {
+      "id": 8,
+      "title": "Integration of WebSocket with Redux Saga",
+      "link": "https://github.com/kiraanikeev/Integration-of-WS-with-Redux-Saga",
+      "kod": "https://github.com/kiraanikeev/Integration-of-WS-with-Redux-Saga",
+      "technologyStack": "React(react-window), Redux(useSelector, useDispatch, reselect), Redux-Saga(eventChannel) localStorage, WebSocket",
+      "description": "На Redux-Saga создается канал-событие и при каждом ответе от WS, информация с сервера  передается пользователю."
+    }, 
+    {
+      "id": 9,
+      "title": "Table with backend",
+      "link": "https://github.com/kiraanikeev/Table-with-back-end",
+      "kod": "https://github.com/kiraanikeev/Table-with-back-end",
+      "technologyStack": "FRONT: React(useState, useEffect, pagination, validation), Axios, CSS(FLEX, Responsive design). BACK: MongoDB, Express.js",
+      "description": "Приложение получает базу данных из созданного сервера и с помощью трехуровневой фильтрации предоставляет результат."
     }
   ],
   "Headline": {
-    "link": "ссылка:",
+    "link": "ссылка",
     "kod": "код:",
     "description": "описание:",
     "technology": "технологии:"

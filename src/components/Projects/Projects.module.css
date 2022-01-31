@@ -161,6 +161,11 @@
   height: 210px;
   margin-top: 15px;
 }
+.links{
+  position: absolute;
+  right: 45px;
+  top: 347px
+}
 
 @media screen and (max-width: 1200px) {
   .link {
