@@ -28,19 +28,19 @@
     },
     {
       "id": 3,
+      "title": "Todo React TypeScript Redux",
+      "link": "https://kiraanikeev.github.io/Todo-React-TypeScript-Redux-/",
+      "kod": "https://github.com/kiraanikeev/Todo-React-TypeScript-Redux-",
+      "technologyStack": "React(router, useEffect, useDispatch, useSelector), Redux, TypeScript, CSS(module), Axios",
+      "description": "Приложение генерирует несколько списков с помощью запроса к серверу"
+    },
+    {
+      "id": 4,
       "title": "Todo-app",
       "link": "https://kiraanikeev.github.io/Todo-app/",
       "kod": "https://github.com/kiraanikeev/Todo-app",
       "technologyStack": "React(useState, useEffect), CSS(FLEX, Responsive design), localStorage",
       "description": "Это приложение для написания задач с возможностью отмечать выполненные, удалять и редактировать заметки."
-    },
-    {
-      "id": 4,
-      "title": "Russian travel",
-      "link": "https://kiraanikeev.github.io/russian_travel/",
-      "kod": "https://github.com/kiraanikeev/russian_travel",
-      "technologyStack": " CSS(FLEX, GRID, Responsive design, BEM)",
-      "description": "Это один из моих первых проектов. Обычный лендинг без использования JavaScript."
     },
     {
       "id": 5,
@@ -52,11 +52,11 @@
     },
     {
       "id": 6,
-      "title": "Sidebar Navigation Menu",
-      "link": "https://kiraanikeev.github.io/Sidebar-Navigation-Menu/",
-      "kod": "https://github.com/kiraanikeev/Sidebar-Navigation-Menu",
-      "technologyStack": "React(router), CSS(FLEX, Responsive design)",
-      "description": "Обычное одностраничное приложение с возможностью перехода на разные страницы."
+      "title": "Russian travel",
+      "link": "https://kiraanikeev.github.io/russian_travel/",
+      "kod": "https://github.com/kiraanikeev/russian_travel",
+      "technologyStack": " CSS(FLEX, GRID, Responsive design, BEM)",
+      "description": "Это один из моих первых проектов. Обычный лендинг без использования JavaScript."
     },
     {
       "id": 7,
@@ -68,6 +68,14 @@
     },
     {
       "id": 8,
+      "title": "Sidebar Navigation Menu",
+      "link": "https://kiraanikeev.github.io/Sidebar-Navigation-Menu/",
+      "kod": "https://github.com/kiraanikeev/Sidebar-Navigation-Menu",
+      "technologyStack": "React(router), CSS(FLEX, Responsive design)",
+      "description": "Обычное одностраничное приложение с возможностью перехода на разные страницы."
+    },
+    {
+      "id": 9,
       "title": "Integration of WebSocket with Redux Saga",
       "link": "https://github.com/kiraanikeev/Integration-of-WS-with-Redux-Saga",
       "kod": "https://github.com/kiraanikeev/Integration-of-WS-with-Redux-Saga",
@@ -75,7 +83,7 @@
       "description": "На Redux-Saga создается канал-событие и при каждом ответе от WS, информация с сервера  передается пользователю."
     }, 
     {
-      "id": 9,
+      "id": 10,
       "title": "Table with backend",
       "link": "https://github.com/kiraanikeev/Table-with-back-end",
       "kod": "https://github.com/kiraanikeev/Table-with-back-end",

@@ -98,7 +98,7 @@ function Projects(props) {
                       : stylesDark.headingContainer
                   }
                 >
-                  {index < 7 && <div className={styles.span} key={obj.index}>
+                  {index < 8 && <div className={styles.span} key={obj.index}>
                    <h4 className={styles.headline}>{t("Headline.link")}</h4>
                     <a
                       href={obj.link}
@@ -153,7 +153,7 @@ function Projects(props) {
         <BtnSlider moveSlide={prevSlide} direction={"prev"} />
 
         <div className={styles.containerDots}>
-          {Array.from({ length: 9 }).map((item, index) => (
+          {Array.from({ length: 10 }).map((item, index) => (
             <div
             key={item}
               onClick={() => moveDot(index + 1)}

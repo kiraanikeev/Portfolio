@@ -28,19 +28,19 @@
     },
     {
       "id": 3,
+      "title": "Todo React TypeScript Redux",
+      "link": "https://kiraanikeev.github.io/Todo-React-TypeScript-Redux-/",
+      "kod": "https://github.com/kiraanikeev/Todo-React-TypeScript-Redux-",
+      "technologyStack": "React(router, useEffect, useDispatch, useSelector), Redux, TypeScript, CSS(module), Axios",
+      "description": "The application generates several lists using a request to the server"
+    },
+    {
+      "id": 4,
       "title": "Todo-app",
       "link": "https://kiraanikeev.github.io/Todo-app/",
       "kod": "https://github.com/kiraanikeev/Todo-app",
       "technologyStack": "React(useState, useEffect), CSS(FLEX, Responsive design), localStorage",
       "description": "It is an application for writing tasks with the opportunity to mark completed, delete and edit labels."
-    },
-    {
-      "id": 4,
-      "title": "Russian travel",
-      "link": "https://kiraanikeev.github.io/russian_travel/",
-      "kod": "https://github.com/kiraanikeev/russian_travel",
-      "technologyStack": " CSS(FLEX, GRID, Responsive design, BEM)",
-      "description": "This is one of my first projects. A ordinary landing page without JavaScript"
     },
     {
       "id": 5,
@@ -52,11 +52,11 @@
     },
     {
       "id": 6,
-      "title": "Sidebar Navigation Menu",
-      "link": "https://kiraanikeev.github.io/Sidebar-Navigation-Menu/",
-      "kod": "https://github.com/kiraanikeev/Sidebar-Navigation-Menu",
-      "technologyStack": "React(router), CSS(FLEX, Responsive design)",
-      "description": "Ordinary SPA with the opportunity to go to different pages"
+      "title": "Russian travel",
+      "link": "https://kiraanikeev.github.io/russian_travel/",
+      "kod": "https://github.com/kiraanikeev/russian_travel",
+      "technologyStack": " CSS(FLEX, GRID, Responsive design, BEM)",
+      "description": "This is one of my first projects. A ordinary landing page without JavaScript"
     },
     {
       "id": 7,
@@ -68,14 +68,22 @@
     },
     {
       "id": 8,
+      "title": "Sidebar Navigation Menu",
+      "link": "https://kiraanikeev.github.io/Sidebar-Navigation-Menu/",
+      "kod": "https://github.com/kiraanikeev/Sidebar-Navigation-Menu",
+      "technologyStack": "React(router), CSS(FLEX, Responsive design)",
+      "description": "Ordinary SPA with the opportunity to go to different pages"
+    },
+    {
+      "id": 9,
       "title": "Integration of WebSocket with Redux Saga",
       "link": "https://github.com/kiraanikeev/Integration-of-WS-with-Redux-Saga",
       "kod": "https://github.com/kiraanikeev/Integration-of-WS-with-Redux-Saga",
       "technologyStack": "React(react-window), Redux(useSelector, useDispatch, reselect), Redux-Saga(eventChannel) localStorage, WebSocket",
       "description": "An event channel is created on Redux-Saga and with each response from WS, information from the server is conveyed to the user."
-    }, 
+    },
     {
-      "id": 9,
+      "id": 10,
       "title": "Table with backend",
       "link": "https://github.com/kiraanikeev/Table-with-back-end",
       "kod": "https://github.com/kiraanikeev/Table-with-back-end",
