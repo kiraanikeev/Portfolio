@@ -1,0 +1,118 @@
+{
+  "Name": {
+    "Name1": "КИРИЛЛ",
+    "Name2": "АНИКЕЕВ"
+  },
+  "Contacts": {
+    "resume": "скачать резюме",
+    "git": "github",
+    "location": "Казань, Россия. Готов к переезду ",
+    "hire": "наймите меня"
+  },
+  "dataSliderTrans": [
+    {
+      "id": 1,
+      "title": "MESTO (React)",
+      "link": "https://kiraanikeev.github.io/mesto-React-/",
+      "kod": "https://github.com/kiraanikeev/mesto-React-",
+      "technologyStack": "React(useState, useEffect, useContext), Ajax(fetch(GET,PUT,POST,DELETE)), CSS(FLEX, GRID, Responsive design)",
+      "description": "Это интерактивная страница для размещения фотографий с возможностью редактировать профиль, удалять собственную публикацию, ставить лайки и просматривать фотографии."
+    },
+    {
+      "id": 2,
+      "title": "Kirill's Pizza",
+      "link": "https://kiraanikeev.github.io/Kirill-s-Pizza/",
+      "kod": "https://github.com/kiraanikeev/Kirill-s-Pizza",
+      "technologyStack": "React(useState, useEffect, useContext, router), CSS(FLEX, GRID, Responsive design), localStorage",
+      "description": "Kirill's Pizza - это одностраничное приложение, имитирующее сайт заказа пиццы с возможностью добавления заказа в корзину."
+    },
+    {
+      "id": 3,
+      "title": "Todo React TypeScript Redux",
+      "link": "https://kiraanikeev.github.io/Todo-React-TypeScript-Redux-/",
+      "kod": "https://github.com/kiraanikeev/Todo-React-TypeScript-Redux-",
+      "technologyStack": "React(router, useEffect, useDispatch, useSelector), Redux, TypeScript, CSS(module), Axios",
+      "description": "Приложение генерирует несколько списков с помощью запроса к серверу"
+    },
+    {
+      "id": 4,
+      "title": "Todo-app",
+      "link": "https://kiraanikeev.github.io/Todo-app/",
+      "kod": "https://github.com/kiraanikeev/Todo-app",
+      "technologyStack": "React(useState, useEffect), CSS(FLEX, Responsive design), localStorage",
+      "description": "Это приложение для написания задач с возможностью отмечать выполненные, удалять и редактировать заметки."
+    },
+    {
+      "id": 5,
+      "title": "MESTO (with authorization)",
+      "link": "https://kiraanikeev.github.io/mesto-with-authorization/",
+      "kod": "https://github.com/kiraanikeev/mesto-with-authorization",
+      "technologyStack": "React(useState, useEffect, useContext, useHistory, HOC, router), Ajax(fetch(GET,PUT,POST,DELETE)), localStorage, CSS(FLEX, GRID)",
+      "description": "Приложение MESTO с модифицированной возможностью регистрации и авторизации пользователей."
+    },
+    {
+      "id": 6,
+      "title": "Russian travel",
+      "link": "https://kiraanikeev.github.io/russian_travel/",
+      "kod": "https://github.com/kiraanikeev/russian_travel",
+      "technologyStack": " CSS(FLEX, GRID, Responsive design, BEM)",
+      "description": "Это один из моих первых проектов. Обычный лендинг без использования JavaScript."
+    },
+    {
+      "id": 7,
+      "title": "MESTO (JavaScript)",
+      "link": "https://kiraanikeev.github.io/mesto/",
+      "kod": "https://github.com/kiraanikeev/mesto",
+      "technologyStack": "OOP(Classes), Ajax(fetch(GET,PUT,POST,DELETE)), CSS(FLEX, GRID, Responsive design, BEM), Webpack",
+      "description": "Приложение MESTO, написанное на ванильном JavaScript с валидацией форм и дополнительной проверкой при удалении карточек."
+    },
+    {
+      "id": 8,
+      "title": "Sidebar Navigation Menu",
+      "link": "https://kiraanikeev.github.io/Sidebar-Navigation-Menu/",
+      "kod": "https://github.com/kiraanikeev/Sidebar-Navigation-Menu",
+      "technologyStack": "React(router), CSS(FLEX, Responsive design)",
+      "description": "Обычное одностраничное приложение с возможностью перехода на разные страницы."
+    },
+    {
+      "id": 9,
+      "title": "Integration of WebSocket with Redux Saga",
+      "link": "https://github.com/kiraanikeev/Integration-of-WS-with-Redux-Saga",
+      "kod": "https://github.com/kiraanikeev/Integration-of-WS-with-Redux-Saga",
+      "technologyStack": "React(react-window), Redux(useSelector, useDispatch, reselect), Redux-Saga(eventChannel) localStorage, WebSocket",
+      "description": "На Redux-Saga создается канал-событие и при каждом ответе от WS, информация с сервера  передается пользователю."
+    }, 
+    {
+      "id": 10,
+      "title": "Table with backend",
+      "link": "https://github.com/kiraanikeev/Table-with-back-end",
+      "kod": "https://github.com/kiraanikeev/Table-with-back-end",
+      "technologyStack": "FRONT: React(useState, useEffect, pagination, validation), Axios, CSS(FLEX, Responsive design). BACK: MongoDB, Express.js",
+      "description": "Приложение получает базу данных из созданного сервера и с помощью трехуровневой фильтрации предоставляет результат."
+    }
+  ],
+  "Headline": {
+    "link": "ссылка",
+    "kod": "код:",
+    "description": "описание:",
+    "technology": "технологии:"
+  },
+  "Navbar": "Контакты",
+  "Phrases": [
+    "пьет много чая",
+    "мечтает все знать",
+    "работает даже ночью",
+    "ещё и сайт умеет верстать",
+    "вместе у нас все получится",
+    "просто приятный парень",
+    "не так уж и плох",
+    "сам придумал эти фразы",
+    "любит учиться",
+    "стремится к лучшему",
+    "самообучающийся, просто продолжайте кормить",
+    "улыбнется в ответ",
+    "твой будущий коллега",
+    "составит компанию в походе"
+  ],
+  "Phrase1": "работает даже ночью"
+}

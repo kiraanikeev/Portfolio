@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.2f355ccd.css",
+    "main.js": "/static/js/main.7399adfe.js",
+    "static/js/787.9b9c0edf.chunk.js": "/static/js/787.9b9c0edf.chunk.js",
+    "static/media/Anikeev Kirill.pdf": "/static/media/Anikeev Kirill.78dbeade06f7217aa848.pdf",
+    "static/media/1.jpg": "/static/media/1.1222972749ef63b6beb2.jpg",
+    "index.html": "/index.html",
+    "static/media/getFetch.cjs": "/static/media/getFetch.c780682470504fffbd04.cjs",
+    "main.2f355ccd.css.map": "/static/css/main.2f355ccd.css.map",
+    "main.7399adfe.js.map": "/static/js/main.7399adfe.js.map",
+    "787.9b9c0edf.chunk.js.map": "/static/js/787.9b9c0edf.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2f355ccd.css",
+    "static/js/main.7399adfe.js"
+  ]
+}
