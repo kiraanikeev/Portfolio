@@ -20,7 +20,6 @@ function Projects(props) {
     }, 20000);
     return () => clearInterval(play);
   }, [slideIndex]);
-
   const nextSlide = () => {
     if (slideIndex !== dataSlider.length) {
       setSlideIndex(slideIndex + 1);
@@ -81,7 +80,7 @@ function Projects(props) {
                 slideIndex === index + 1 ? styles.activeAnim : styles.slide
               }
             >
-                <img key={obj.id}
+                <img 
                   className={!props.darkVisible ? styles.img : stylesDark.img}
                   src={process.env.PUBLIC_URL + `/Imgs/${index + 1}.png`}
                 />
@@ -98,7 +97,7 @@ function Projects(props) {
                       : stylesDark.headingContainer
                   }
                 >
-                  {index < 8 && <div className={styles.span} key={obj.index}>
+                  {index < 8 && <div className={styles.span} key={Math.random()}>
                    <h4 className={styles.headline}>{t("Headline.link")}</h4>
                     <a
                       href={obj.link}
@@ -109,7 +108,7 @@ function Projects(props) {
                       {obj.link}
                     </a>
                   </div>}
-                  <div className={styles.span} key={obj.index}>
+                  <div className={styles.span} key={Math.random()}>
                     <h4 className={styles.headline}>{t("Headline.kod")}</h4>
                      <a
                       href={obj.kod}
@@ -120,7 +119,7 @@ function Projects(props) {
                       {obj.kod}
                     </a> 
                    </div>
-                  <div className={styles.span} key={obj.index}>
+                  <div className={styles.span} key={Math.random()}>
                     <h4 className={styles.headline}>
                       {t("Headline.description")}
                     </h4>
@@ -132,7 +131,7 @@ function Projects(props) {
                       {obj.description}
                     </p>
                   </div>
-                  <div className={styles.span} key={obj.index}>
+                  <div className={styles.span} key={Math.random()}>
                     <h4 className={styles.headline}>
                       {t("Headline.technology")}
                     </h4>
@@ -153,9 +152,9 @@ function Projects(props) {
         <BtnSlider moveSlide={prevSlide} direction={"prev"} />
 
         <div className={styles.containerDots}>
-          {Array.from({ length: 10 }).map((item, index) => (
+          {Array.from({ length: 12 }).map((item, index) => (
             <div
-            key={item}
+            key={Math.random()}
               onClick={() => moveDot(index + 1)}
               className={
                 slideIndex === index + 1

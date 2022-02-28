@@ -125,6 +125,8 @@
   top: 56%;
   transform: translateX(-50%);
   display: flex;
+  height: 15px;
+  
 }
 
 .dot {

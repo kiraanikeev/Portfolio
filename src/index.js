@@ -5,7 +5,6 @@ import App from "./App";
 import styles from "./Preloader.module.css";
 import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter } from "react-router-dom";
-// import time from "./img/time-6-128.png";
 import "./i18n";
 
 ReactDOM.render(
@@ -13,9 +12,6 @@ ReactDOM.render(
     <BrowserRouter>
       <Suspense
         fallback={
-          // <div>
-          //   <img className={styles.time} src={time} />
-          // </div>
           <div className={styles.preloader}>
           <div className={styles.preloader__container}>
             <span className={styles.preloader__round}></span>
@@ -31,7 +27,4 @@ ReactDOM.render(
   document.getElementById("root")
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();

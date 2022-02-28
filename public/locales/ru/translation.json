@@ -28,6 +28,14 @@
     },
     {
       "id": 3,
+      "title": "Animal kingdom",
+      "link": "https://kiraanikeev.github.io/Animal-Kingdom/",
+      "kod": "https://github.com/kiraanikeev/Animal-Kingdom",
+      "technologyStack": "React(useState, useEffect), CSS(FLEX, Responsive design), Ajax(axios(GET,PUT,POST,DELETE))",
+      "description": "Приложение которое позволяет вам получать данные о животных с сервера, редактировать их, создавать новые и удалять."
+    },
+    {
+      "id": 4,
       "title": "Todo React TypeScript Redux",
       "link": "https://kiraanikeev.github.io/Todo-React-TypeScript-Redux-/",
       "kod": "https://github.com/kiraanikeev/Todo-React-TypeScript-Redux-",
@@ -35,7 +43,7 @@
       "description": "Приложение генерирует несколько списков с помощью запроса к серверу"
     },
     {
-      "id": 4,
+      "id": 5,
       "title": "Todo-app",
       "link": "https://kiraanikeev.github.io/Todo-app/",
       "kod": "https://github.com/kiraanikeev/Todo-app",
@@ -43,7 +51,7 @@
       "description": "Это приложение для написания задач с возможностью отмечать выполненные, удалять и редактировать заметки."
     },
     {
-      "id": 5,
+      "id": 6,
       "title": "MESTO (with authorization)",
       "link": "https://kiraanikeev.github.io/mesto-with-authorization/",
       "kod": "https://github.com/kiraanikeev/mesto-with-authorization",
@@ -51,7 +59,7 @@
       "description": "Приложение MESTO с модифицированной возможностью регистрации и авторизации пользователей."
     },
     {
-      "id": 6,
+      "id": 7,
       "title": "Russian travel",
       "link": "https://kiraanikeev.github.io/russian_travel/",
       "kod": "https://github.com/kiraanikeev/russian_travel",
@@ -59,7 +67,7 @@
       "description": "Это один из моих первых проектов. Обычный лендинг без использования JavaScript."
     },
     {
-      "id": 7,
+      "id": 8,
       "title": "MESTO (JavaScript)",
       "link": "https://kiraanikeev.github.io/mesto/",
       "kod": "https://github.com/kiraanikeev/mesto",
@@ -67,7 +75,7 @@
       "description": "Приложение MESTO, написанное на ванильном JavaScript с валидацией форм и дополнительной проверкой при удалении карточек."
     },
     {
-      "id": 8,
+      "id": 9,
       "title": "Sidebar Navigation Menu",
       "link": "https://kiraanikeev.github.io/Sidebar-Navigation-Menu/",
       "kod": "https://github.com/kiraanikeev/Sidebar-Navigation-Menu",
@@ -75,7 +83,7 @@
       "description": "Обычное одностраничное приложение с возможностью перехода на разные страницы."
     },
     {
-      "id": 9,
+      "id": 10,
       "title": "Integration of WebSocket with Redux Saga",
       "link": "https://github.com/kiraanikeev/Integration-of-WS-with-Redux-Saga",
       "kod": "https://github.com/kiraanikeev/Integration-of-WS-with-Redux-Saga",
@@ -83,7 +91,15 @@
       "description": "На Redux-Saga создается канал-событие и при каждом ответе от WS, информация с сервера  передается пользователю."
     }, 
     {
-      "id": 10,
+      "id": 11,
+      "title": "Animal kingdom(backend)",
+      "link": "https://github.com/kiraanikeev/backend-animals",
+      "kod": "https://github.com/kiraanikeev/backend-animals",
+      "technologyStack": "MongoDB, Express.js, mongoose",
+      "description": "Серверная часть с данными о животных, которая позволяет редактировать их, создавать новые и удалять."
+    },
+    {
+      "id": 12,
       "title": "Table with backend",
       "link": "https://github.com/kiraanikeev/Table-with-back-end",
       "kod": "https://github.com/kiraanikeev/Table-with-back-end",
